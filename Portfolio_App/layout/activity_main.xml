@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="false"
+    android:layout_centerHorizontal="false"
+    android:layout_centerVertical="false"
+    android:layout_gravity="center"
+    android:background="#751C85"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="309dp"
+        android:layout_height="198dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="230dp"
+        app:srcCompat="@drawable/bio" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="395dp"
+        android:layout_height="88dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="165dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="Sakshi's Portfolio"
+        android:textColor="#1B1A1C"
+        android:textColorHighlight="#1C1B1B"
+        android:textColorLink="#121111"
+        android:textSize="41dp"
+        android:textStyle="bold" />
+</RelativeLayout>
